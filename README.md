@@ -5,13 +5,16 @@ TCD Computational Methods Project
 # Project Topic : BAYESIAN MATTING
 
 This project implements the Bayesian Matting technique described in Yung-Yu Chuang, Brian Curless, David H. Salesin and Richard Szeliski. A Bayesian Approach to Digital Matting. In Proceedings of IEEE Computer Vision and Pattern Recognition (CVPR 2001), Vol. II, 264-271, December 2001 [1].
+
 Our implementation is slight different from Paper :
+
 [1] Yung-Yu Chuang, B. Curless, D. H. Salesin and R. Szeliski, "A Bayesian approach to digital matting," Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. CVPR 2001, 2001, pp. II-II
+
 [2] http://www.alphamatting.com/datasets.php\ We test the performance of our algorithm using three performance metrics viz. MSE (between original image and the estimated image & alpha matte and ground truth), PSNR (between original image and the estimated image), and SSIM (between original image and the estimated image & alpha matte and ground truth).
 
-* We didn't implemet the clustering methodology
-* We experimented with size of the kernel, thus taking into account number of pixels
-* Assigning weights to the kernel depending upon the size of the kernel greater than 50 x 50
+1. We didn't implemet the clustering methodology
+2. We experimented with size of the kernel, thus taking into account number of pixels
+3. Assigning weights to the kernel depending upon the size of the kernel greater than 50 x 50
 
 
 ## Running the DEMO : ##
